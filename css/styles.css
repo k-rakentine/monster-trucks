@@ -1,3 +1,77 @@
+/*
+colors:
+    Background - Blue: #0A03E8
+    Content - Red: #FF0A1B
+    Accent - Green: #21D20C
+
+Typography:
+    Body - font-family: 'Abril Fatface', cursive;
+    secondary - font-family: 'Lora', serif;
+*/
+
 body {
-    background-color: blueviolet
+    background-color: #0A03E8
+}
+
+img {
+    width: 100%;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+li > a:link, li > a:visited {
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+    transition: background .5s, margin-left 1s;
+}
+
+li{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 15px;
+}
+
+a:visited {
+    color: black;
+}
+
+li > a:hover {
+  background-color: #FF0A1B;
+  border-left: 8px solid black;
+  color: black;
+  margin-left: 32px;
+}
+a:focus {
+    box-shadow: black;
+}
+
+footer {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+h1, h2 {
+ Body - font-family: font-family: 'Oswald', sans-serif;   
+}
+
+p, blockquote {
+    font-family: font-family: 'Lora', serif;
+}
+.gravedigger {
+    width: 66%;
+}
+
+aside {
+    text-align: center;
 }
